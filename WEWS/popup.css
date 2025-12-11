@@ -4,6 +4,10 @@
         src: url(RADIOLAND.ttf);
     }
 
+/* #summary_div {
+  visibility: hidden;
+} */
+
 p {
   color: white;
 }
@@ -13,9 +17,10 @@ p {
   height: 150px;
   margin-left: 20px;
   width: 150px;
-  background-color: #98acd4;
+  background-color: rgb(120, 112, 111);
   box-shadow: 2px 2px 2px #1a3b7d;
  border-radius: 5px;
+ color: white;
 }
 
 .flexcontainer {
@@ -26,6 +31,18 @@ p {
   font-size: 32px;
   color: white;
   font-weight: bold;
+}
+
+#summary_div {
+  background-color: rgb(89, 84, 83);
+  border-radius: 4px;
+}
+
+#summary {
+  font-size: 22px;
+  color: white;
+  font-family: PTSans-Regular;
+  /* font-weight: bold; */
 }
 
 #currentCountry, #country
@@ -53,7 +70,7 @@ p {
   font-size: 22px;
   /* color: #DC143C; */
   /* float: left; */
-  color: #05668D;
+  color: white;
 }
 
 #totaldeath{
@@ -74,6 +91,7 @@ body
     font-size: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 #status
